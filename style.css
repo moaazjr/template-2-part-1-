@@ -1,0 +1,82 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+/* header */
+header{
+    display: flex;
+    position: fixed;
+    filter: blur(0.8);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 1% 5%;
+    align-items: center;
+}
+/* header button */
+header button{
+    /* width: 100px; */
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(71, 93, 194);
+    color: rgb(71, 93, 194);
+    transition: 0.3s;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: rgb(71, 93, 194);
+    color: white;
+}
+
+header h1{
+    color: rgb(71, 93, 194);
+}
+/* section */
+section{
+    padding: 0 5%;
+    padding-top: 12%;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content{
+    width: 45%;
+    /* padding: 1% 5% */
+}
+section h1{
+    width: 90%;
+    font-size: 3.2rem;
+    color: #413f3f;
+    line-height: 1.7;
+}
+section .content p{
+    color: gray;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+section .cont-btn button{
+    border-radius: 20px;
+    background-color: transparent;
+    border: black solid 2px;
+    padding: 0.5rem 2.5rem;
+    margin-right: 1rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+section .cont-btn button:hover{
+    background-color: black;
+    color: white;
+}
+section .img-cont {
+    width: 45%;
+
+}
+section .img-cont img{
+    width: 400px;
+    
+}
